@@ -25,7 +25,7 @@ SECRET_KEY = ')%n2n1(n+o_qn5x&*dtx7yz=sjf_7&55c1s_9r3x)xrvu1!j=e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["djangocvparser.herokuapp.com"]
 
 
 # Application definition
