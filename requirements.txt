@@ -6,7 +6,7 @@ chardet==3.0.4
 cymem==2.0.3
 Django==2.1.15
 docx2txt==0.8
--e https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz#egg=en_core_web_sm
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz#egg=en_core_web_sm
 gunicorn==20.0.4
 idna==2.8
 jsonschema==3.2.0
