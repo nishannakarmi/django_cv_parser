@@ -2,7 +2,12 @@ import os
 
 from django.shortcuts import render
 from django.core.files.storage import FileSystemStorage
+from django.conf import settings
 from pyresparser import ResumeParser
+
+import nltk
+
+nltk.data.path.append(settings.NLTK_DATA_PATH)
 
 
 # Create your views here.
